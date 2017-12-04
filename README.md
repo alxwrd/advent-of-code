@@ -12,3 +12,5 @@ Day 2: [solution](year_2017/day_02/) :star::star:
 
 Day 3: [solution](year_2017/day_03/) :star:
 
+Day 4: [solution](year_2017/day_04/) :star::star:
+
