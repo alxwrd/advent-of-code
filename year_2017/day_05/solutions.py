@@ -10,11 +10,18 @@ class Maze(object):
         self.layout = [int(line) for line in layout.splitlines()]
         self.current_pos = 0
         self.total_steps = 0
+        self.weird_offset = False
+
+
+    def increment(self, offset):
+        if self.weird_offset and offset >= 3:
+            return -1
+        return 1
 
 
     def step(self):
         travel = self.layout[self.current_pos]
-        self.layout[self.current_pos] += 1
+        self.layout[self.current_pos] += self.increment(travel)
         self.current_pos += travel
         self.total_steps += 1
         try:
