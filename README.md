@@ -16,3 +16,4 @@ Day 4: [solution](year_2017/day_04/) :star::star:
 
 Day 5: [solution](year_2017/day_05/) :star::star:
 
+Day 6: [solution](year_2017/day_06/) :star::star:
